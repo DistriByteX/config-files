@@ -159,7 +159,7 @@ fgrep "127.0.1.1 pnetlab.example.com pnetlab" /etc/hosts || echo 127.0.2.1 pnetl
 echo pnetlab >/etc/hostname 2>/dev/null
 
 echo -e "${GREEN}installing pnetlab...${NO_COLOR}"
-wget --content-disposition -q --show-progress $URL_PNET_PNETLAB
+wget --content-disposition -q --show-progress $URL_PNET_PNETLAB -O pnetlab_6.0.0-103_amd64.deb
 dpkg -i /tmp/pnetlab_6*.deb
 
 # Detect cloud
