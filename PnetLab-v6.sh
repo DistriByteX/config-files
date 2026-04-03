@@ -14,17 +14,17 @@ KERNEL=pnetlab_kernel.zip
 rm /var/lib/dpkg/lock* &>/dev/null
 dpkg --configure -a &>/dev/null
 
-URL_KERNEL="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/L/linux-5.17.15-pnetlab-uksm/pnetlab_kernel.zip?sign=Vx9drh6AJ1w7al6ZBiz8TjhZqOAcjfV3I2dk_oyAEFw=:0"
-URL_PRE_DOCKER="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/D/pre-docker.zip?sign=B_ObpzW810YlcW32lnuh3PZXUsa9njxdDfUOfNJN06E=:0"
-URL_PNET_GUACAMOLE="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_GUACAMOLE/pnetlab-guacamole_6.0.0-7_amd64.deb?sign=F4y4-ghWD8MuYyvxCxmabSPTaWNCvlmT-_Igof9DDVY=:0"
-URL_PNET_DYNAMIPS="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_DYNAMIPS/pnetlab-dynamips_6.0.0-30_amd64.deb?sign=bBlOLR_04fh9m0HPmqFpDUfNhZr8zkKbVXYNRVVU1mc=:0"
-URL_PNET_SCHEMA="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_SCHEMA/pnetlab-schema_6.0.0-30_amd64.deb?sign=7aDYz85mJ9G359WMwVnK7fVMu0Jvsi9U_OybZgykVqg=:0"
-URL_PNET_VPC="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_VPC/pnetlab-vpcs_6.0.0-30_amd64.deb?sign=WRv3iGpueARqLBiGAO75jPROPUjvMGgTW7a1Go3DIEk=:0"
-URL_PNET_QEMU="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_QEMU/pnetlab-qemu_6.0.0-30_amd64.deb?sign=c7lzibgdyaAkiDtZR-TX8iyWKdP-SEn7Z9_-mcTPrvU=:0"
-URL_PNET_DOCKER="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_DOCKER/pnetlab-docker_6.0.0-30_amd64.deb?sign=rQh9nniNEMaOUmJ-YMryY8-orWAF57KQ8NCiGj8UTyQ=:0"
-URL_PNET_PNETLAB="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_PNETLAB/pnetlab_6.0.0-103_amd64.deb?sign=kK_TGGygDZEEUs0JV_At1km-SjmVtj31ab65BzHXrow=:0"
-URL_PNET_WIRESHARK="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb?sign=l-Mag5pxx46HHewIuYwSWhO-kHsBvlLS0zwJLWuegqM=:0"
-URL_PNET_TPM="https://alist.labhub.eu.org/d/LabHub/pnetlab/upgrades_pnetlab/focal/T/swtpm-focal.zip?sign=MvVDlsTxX9FP2ctJR8Zu5LvcrkzpvV4eizunexO_1Kw=:0"
+URL_KERNEL="https://drive.labhub.eu.org/download.aspx?file=Zn0pw99cVBNp3wd29fYZ0LadlqAYNMmi8ufYkAjwyhQKFGaw8Wg1awicXfeQC6rP&expiry=oZ6nAJP3ZRj9dVTW%2F73ggw%3D%3D&mac=b70d3bb9d2f2c65ecfe94e7e96b86e3cf792ec43cc12af4867c7987e03303121"
+URL_PRE_DOCKER="https://drive.labhub.eu.org/download.aspx?file=bs5dSKIGaAbsq0wYJTsZdFPLBaZic0cbRlYKIbZMflRqAgtpDLWeI0DUNYeZS6yP&expiry=FfKl290TgYar549DlvYP8g%3D%3D&mac=a30348a8c338b08b0321f8c398fa45dd0414b28bf03d73e14a025c60bea36d96"
+URL_PNET_GUACAMOLE="https://drive.labhub.eu.org/download.aspx?file=9kP4lOqVbAL2e7RCD4gACmT3Ty10ApwC6CbYaTSfSGNHTnPiXzC4evQUn1G626Vr&expiry=UocZTSQ1fQ38qSPQmKa7dQ%3D%3D&mac=c41207880865e20787a0eed1b172d366045dfd832b5dedc4223f12a22875d5a9"
+URL_PNET_DYNAMIPS="https://drive.labhub.eu.org/download.aspx?file=BsTBpIhpzPaYBQVL%2FH%2FxqmVxyGEIqECku%2BzPWlJAbvQR4SUMqvGgb1I96WUHE57t&expiry=%2F5DbEQ9LMUmMCl9iIiJxIA%3D%3D&mac=c36ad031d3a1f4579d04332b464323b618b9b9781a3855a947028dd33810d5f9"
+URL_PNET_SCHEMA="https://drive.labhub.eu.org/download.aspx?file=5b5%2Bkss6OEnytNTrvW0%2BSfys3kvAw5kZ9knIsByE8Xo2qWdb%2FqIUD73GjZdKRGMi&expiry=XmOhwjDqeTSX0kRW4fBOhw%3D%3D&mac=1c8dc47be2e1453e5a6d7b7c23768b5721a33450ae6f5ca713780abd3dd6a942"
+URL_PNET_VPC="https://drive.labhub.eu.org/download.aspx?file=6p0i2nwP%2BBiQBW33C9Bdh78eqhDWrtcmyaLu%2BoJwTKrIll%2FudVPnqr5T2UePd0d0&expiry=Tsf7FUe2nDOy5NOUAsm4AA%3D%3D&mac=2244f948d505c46d504de4cd6aabb12c548b02c47b46384ce52894cfb433cb54"
+URL_PNET_QEMU="https://drive.labhub.eu.org/download.aspx?file=E7rs%2FIYUKkaBxI5C9P%2BTwnoUzdRovROxsjC97oyVUsFRjqfXAfKysNUZBqq1iAG9&expiry=feDP8uULPZ3RStZFUzPcQQ%3D%3D&mac=3db872648ef12f4f646e984082b8e4abdc7588e3bd52771c88d7e04cff457710"
+URL_PNET_DOCKER="https://drive.labhub.eu.org/download.aspx?file=SMb4Rc%2BVL4PJX0Ky8jx2IUJufcT2CqKeEI8e2a4vTn7GIsH5AZPb4vKboDdEZick&expiry=EylbGs6RCo0nbExygbuP8Q%3D%3D&mac=be178618dde6a08bc5835ef367f96f56d95063f6410fd6acc4c8a15b6572b457"
+URL_PNET_PNETLAB="https://drive.labhub.eu.org/download.aspx?file=P90Nk9tO%2BjYRvWt8u%2BNlmehbs6qncnO8Pqrx%2BJ63lAkdgn9zlJ93cNptI5KkUSDO&expiry=b81GIDSvoio0PFYh6XzGmw%3D%3D&mac=fa2b210f96c6498640718706645dd55d88cb98bb6114367c3ede272758aa3de0"
+URL_PNET_WIRESHARK="https://drive.labhub.eu.org/download.aspx?file=YwTuRyx6cNhSY7X37edvA20LEuSYgatZU6zJ%2FEF88lTUxHuvKRACmhO19tReanbi&expiry=mOQxbBHxGtF0CCMFCg509w%3D%3D&mac=59e4ad197e34e093bb5170dc067053a385ef788bf6fe6c4c0d511667a6fe22a0"
+URL_PNET_TPM="https://drive.labhub.eu.org/download.aspx?file=OijW0UJhUspy9vXDFXXDD1MWHCez6Y2a%2BCX7aiZMeuWnD1jKTPqU9kH5JMk1%2FRsQ&expiry=3c%2BTCYuIQA%2FAZyEibE2qsw%3D%3D&mac=5996818b3291175431a86a1146eb73d4220a277f08c258c06dffff4aa6703b99"
 
 lsb_release -r -s | grep -q 20.04
 if [ $? -ne 0 ]; then
