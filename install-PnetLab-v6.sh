@@ -14,17 +14,17 @@ KERNEL=pnetlab_kernel.zip
 rm /var/lib/dpkg/lock* &>/dev/null
 dpkg --configure -a &>/dev/null
 
-URL_KERNEL="https://drive.labhub.eu.org/download.aspx?file=Zn0pw99cVBNp3wd29fYZ0LadlqAYNMmi8ufYkAjwyhQKFGaw8Wg1awicXfeQC6rP&expiry=oZ6nAJP3ZRj9dVTW%2F73ggw%3D%3D&mac=b70d3bb9d2f2c65ecfe94e7e96b86e3cf792ec43cc12af4867c7987e03303121"
-URL_PRE_DOCKER="https://drive.labhub.eu.org/download.aspx?file=bs5dSKIGaAbsq0wYJTsZdFPLBaZic0cbRlYKIbZMflRqAgtpDLWeI0DUNYeZS6yP&expiry=FfKl290TgYar549DlvYP8g%3D%3D&mac=a30348a8c338b08b0321f8c398fa45dd0414b28bf03d73e14a025c60bea36d96"
-URL_PNET_GUACAMOLE="https://drive.labhub.eu.org/download.aspx?file=9kP4lOqVbAL2e7RCD4gACmT3Ty10ApwC6CbYaTSfSGNHTnPiXzC4evQUn1G626Vr&expiry=UocZTSQ1fQ38qSPQmKa7dQ%3D%3D&mac=c41207880865e20787a0eed1b172d366045dfd832b5dedc4223f12a22875d5a9"
-URL_PNET_DYNAMIPS="https://drive.labhub.eu.org/download.aspx?file=BsTBpIhpzPaYBQVL%2FH%2FxqmVxyGEIqECku%2BzPWlJAbvQR4SUMqvGgb1I96WUHE57t&expiry=%2F5DbEQ9LMUmMCl9iIiJxIA%3D%3D&mac=c36ad031d3a1f4579d04332b464323b618b9b9781a3855a947028dd33810d5f9"
-URL_PNET_SCHEMA="https://drive.labhub.eu.org/download.aspx?file=5b5%2Bkss6OEnytNTrvW0%2BSfys3kvAw5kZ9knIsByE8Xo2qWdb%2FqIUD73GjZdKRGMi&expiry=XmOhwjDqeTSX0kRW4fBOhw%3D%3D&mac=1c8dc47be2e1453e5a6d7b7c23768b5721a33450ae6f5ca713780abd3dd6a942"
-URL_PNET_VPC="https://drive.labhub.eu.org/download.aspx?file=6p0i2nwP%2BBiQBW33C9Bdh78eqhDWrtcmyaLu%2BoJwTKrIll%2FudVPnqr5T2UePd0d0&expiry=Tsf7FUe2nDOy5NOUAsm4AA%3D%3D&mac=2244f948d505c46d504de4cd6aabb12c548b02c47b46384ce52894cfb433cb54"
-URL_PNET_QEMU="https://drive.labhub.eu.org/download.aspx?file=E7rs%2FIYUKkaBxI5C9P%2BTwnoUzdRovROxsjC97oyVUsFRjqfXAfKysNUZBqq1iAG9&expiry=feDP8uULPZ3RStZFUzPcQQ%3D%3D&mac=3db872648ef12f4f646e984082b8e4abdc7588e3bd52771c88d7e04cff457710"
-URL_PNET_DOCKER="https://drive.labhub.eu.org/download.aspx?file=SMb4Rc%2BVL4PJX0Ky8jx2IUJufcT2CqKeEI8e2a4vTn7GIsH5AZPb4vKboDdEZick&expiry=EylbGs6RCo0nbExygbuP8Q%3D%3D&mac=be178618dde6a08bc5835ef367f96f56d95063f6410fd6acc4c8a15b6572b457"
-URL_PNET_PNETLAB="https://drive.labhub.eu.org/download.aspx?file=P90Nk9tO%2BjYRvWt8u%2BNlmehbs6qncnO8Pqrx%2BJ63lAkdgn9zlJ93cNptI5KkUSDO&expiry=b81GIDSvoio0PFYh6XzGmw%3D%3D&mac=fa2b210f96c6498640718706645dd55d88cb98bb6114367c3ede272758aa3de0"
-URL_PNET_WIRESHARK="https://drive.labhub.eu.org/download.aspx?file=YwTuRyx6cNhSY7X37edvA20LEuSYgatZU6zJ%2FEF88lTUxHuvKRACmhO19tReanbi&expiry=mOQxbBHxGtF0CCMFCg509w%3D%3D&mac=59e4ad197e34e093bb5170dc067053a385ef788bf6fe6c4c0d511667a6fe22a0"
-URL_PNET_TPM="https://drive.labhub.eu.org/download.aspx?file=OijW0UJhUspy9vXDFXXDD1MWHCez6Y2a%2BCX7aiZMeuWnD1jKTPqU9kH5JMk1%2FRsQ&expiry=3c%2BTCYuIQA%2FAZyEibE2qsw%3D%3D&mac=5996818b3291175431a86a1146eb73d4220a277f08c258c06dffff4aa6703b99"
+URL_KERNEL=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/L/linux-5.17.15-pnetlab-uksm/pnetlab_kernel.zip
+URL_PRE_DOCKER=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/D/pre-docker.zip
+URL_PNET_GUACAMOLE=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_GUACAMOLE/pnetlab-guacamole_6.0.0-7_amd64.deb
+URL_PNET_DYNAMIPS=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_DYNAMIPS/pnetlab-dynamips_6.0.0-30_amd64.deb
+URL_PNET_SCHEMA=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_SCHEMA/pnetlab-schema_6.0.0-30_amd64.deb
+URL_PNET_VPC=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_VPC/pnetlab-vpcs_6.0.0-30_amd64.deb
+URL_PNET_QEMU=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_QEMU/pnetlab-qemu_6.0.0-30_amd64.deb
+URL_PNET_DOCKER=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_DOCKER/pnetlab-docker_6.0.0-30_amd64.deb
+URL_PNET_PNETLAB=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_PNETLAB/pnetlab_6.0.0-103_amd64.deb
+URL_PNET_WIRESHARK=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
+URL_PNET_TPM=https://labhub.eu.org/0:/pnetlab/upgrades_pnetlab/focal/T/swtpm-focal.zip
 
 lsb_release -r -s | grep -q 20.04
 if [ $? -ne 0 ]; then
@@ -95,71 +95,71 @@ cd /tmp 2>&1 >/dev/null
 echo -e "${GREEN}$DOwnload Packages${NO_COLOR}"
 dpkg-query -l | grep linux-image-5.17.15-pnetlab-uksm-2 | grep 5.17.15-pnetlab-uksm-2-1 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_KERNEL -O $KERNEL
+    wget --content-disposition -q --show-progress $URL_KERNEL
     unzip /tmp/$KERNEL &>/dev/null
     dpkg -i /tmp/pnetlab_kernel/*.deb
 fi
 
 dpkg-query -l | grep docker-ce -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PRE_DOCKER -O pre-docker.zip
+    wget --content-disposition -q --show-progress $URL_PRE_DOCKER
     unzip /tmp/pre-docker.zip &>/dev/null
     dpkg -i /tmp/pre-docker/*.deb
 fi
 
 dpkg-query -l | grep swtpm -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_TPM -O swtpm-focal.zip
+    wget --content-disposition -q --show-progress $URL_PNET_TPM
     unzip /tmp/swtpm-focal.zip &>/dev/null
     dpkg -i /tmp/swtpm-focal/*.deb
 fi
 
 dpkg-query -l | grep pnetlab-docker | grep 6.0.0-30 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_DOCKER -O pnetlab-docker_6.0.0-30_amd64.deb
+    wget --content-disposition -q --show-progress $URL_PNET_DOCKER
     dpkg -i /tmp/pnetlab-docker_*.deb
 fi
 
 dpkg-query -l | grep pnetlab-schema | grep 6.0.0-30 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_SCHEMA -O pnetlab-schema_6.0.0-30_amd64.deb
+    wget --content-disposition -q --show-progress $URL_PNET_SCHEMA
     dpkg -i /tmp/pnetlab-schema_*.deb
 fi
 
 dpkg-query -l | grep pnetlab-guacamole | grep 6.0.0-7 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_GUACAMOLE -O pnetlab-guacamole_6.0.0-7_amd64.deb
+    wget --content-disposition -q --show-progress $URL_PNET_GUACAMOLE
     dpkg -i /tmp/pnetlab-guacamole_*.deb
 fi
 
 dpkg-query -l | grep pnetlab-vpcs | grep 6.0.0-30 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_VPC -O pnetlab-vpcs_6.0.0-30_amd64.deb
+    wget --content-disposition -q --show-progress $URL_PNET_VPC
     dpkg -i /tmp/pnetlab-vpcs_*.deb
 fi
 
 dpkg-query -l | grep pnetlab-dynamips | grep 6.0.0-30 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_DYNAMIPS -O pnetlab-dynamips_6.0.0-30_amd64.deb
+    wget --content-disposition -q --show-progress $URL_PNET_DYNAMIPS
     dpkg -i /tmp/pnetlab-dynamips_*.deb
 fi
 
 dpkg-query -l | grep pnetlab-wireshark | grep 6.0.0-30 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_WIRESHARK -O pnetlab-wireshark_6.0.0-30_amd64.deb
+    wget --content-disposition -q --show-progress $URL_PNET_WIRESHARK
     dpkg -i pnetlab-wireshark_6.0.0-30_amd64.deb
 fi
 
 dpkg-query -l | grep pnetlab-qemu | grep 6.0.0-30 -q
 if [ $? -ne 0 ]; then
-    wget --content-disposition -q --show-progress $URL_PNET_QEMU -O pnetlab-qemu_6.0.0-30_amd64.deb
+    wget --content-disposition -q --show-progress $URL_PNET_QEMU
     dpkg -i /tmp/pnetlab-qemu_*.deb
 fi
 fgrep "127.0.1.1 pnetlab.example.com pnetlab" /etc/hosts || echo 127.0.2.1 pnetlab.example.com pnetlab >>/etc/hosts 2>/dev/null
 echo pnetlab >/etc/hostname 2>/dev/null
 
 echo -e "${GREEN}installing pnetlab...${NO_COLOR}"
-wget --content-disposition -q --show-progress $URL_PNET_PNETLAB -O pnetlab_6.0.0-103_amd64.deb
+wget --content-disposition -q --show-progress $URL_PNET_PNETLAB
 dpkg -i /tmp/pnetlab_6*.deb
 
 # Detect cloud
